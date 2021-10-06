@@ -99,7 +99,7 @@ export default function App() {
                 borderRadius: "0.5rem",
               }}>
               <div style={{ fontSize: "larger" }}> {book.name} </div>
-              <div style={{ fontSize: "1px" }}> {book.desc} </div>
+              <div style={{ fontSize: "1rem" }}> {book.desc} </div>
               <div style={{ fontSize: "smaller" }}> {book.rating} </div>
             </li>
           ))}
